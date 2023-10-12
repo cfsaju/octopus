@@ -11,6 +11,6 @@ step "hello-world" {
             Octopus.Action.Script.ScriptSource = "Inline"
             Octopus.Action.Script.Syntax = "Bash"
         }
-        worker_pool = "default-worker-pool-1"
+        worker_pool = "hosted-ubuntu"
     }
 }
